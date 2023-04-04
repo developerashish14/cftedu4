@@ -1,0 +1,51 @@
+CRITICAL - 2023-01-17 23:32:55 --> Undefined variable $contact
+in APPPATH\Views\admin\dashboard.php on line 157.
+ 1 APPPATH\Views\admin\dashboard.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contact', 'APPPATH\\Views\\admin\\dashboard.php', 157)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 23:34:38 --> Undefined variable $contact
+in APPPATH\Views\admin\dashboard.php on line 157.
+ 1 APPPATH\Views\admin\dashboard.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contact', 'APPPATH\\Views\\admin\\dashboard.php', 157)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 23:38:17 --> Undefined variable $registration
+in APPPATH\Views\admin\dashboard.php on line 189.
+ 1 APPPATH\Views\admin\dashboard.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registration', 'APPPATH\\Views\\admin\\dashboard.php', 189)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 23:47:34 --> Invalid file: admin/faculty.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/faculty.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/faculty', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/faculty', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 23:48:20 --> Invalid file: admin/faculty.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/faculty.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/faculty', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/faculty', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

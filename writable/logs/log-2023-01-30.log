@@ -1,0 +1,9 @@
+CRITICAL - 2023-01-30 00:00:16 --> Invalid file: admin/web_pages.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/web_pages.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/web_pages', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/web_pages', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,838 @@
+CRITICAL - 2022-11-13 21:43:39 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'font-awesome.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 21:43:39 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'themify-icons.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 21:43:39 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'bootstrap.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 21:43:39 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'unix.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 21:43:39 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'style.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 21:43:39 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'js', 'lib', 'jquery.min.js')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 21:43:39 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'js', 'lib', 'bootstrap.min.js')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 21:43:39 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'js', 'myjs.js')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 21:43:40 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'images', 'fevicon.png')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 21:44:12 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'font-awesome.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:06:47 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'font-awesome.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:27 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'font-awesome.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:28 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'font-awesome.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:28 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'font-awesome.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:29 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'font-awesome.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:35 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'font-awesome.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:36 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'font-awesome.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:36 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'font-awesome.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:36 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'font-awesome.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:37 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'font-awesome.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:37 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'font-awesome.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:38 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'font-awesome.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:38 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'themify-icons.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:38 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'bootstrap.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:38 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'unix.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:38 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'style.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:38 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'js', 'lib', 'jquery.min.js')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:38 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'js', 'lib', 'bootstrap.min.js')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:38 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'js', 'myjs.js')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:08:38 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'images', 'fevicon.png')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:33:42 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'font-awesome.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:33:42 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'themify-icons.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:33:43 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'bootstrap.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:33:43 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'unix.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:33:43 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'style.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:33:43 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'js', 'lib', 'jquery.min.js')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:33:43 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'js', 'lib', 'bootstrap.min.js')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:33:43 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'js', 'myjs.js')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:33:43 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'images', 'fevicon.png')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:33:44 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'font-awesome.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:37:13 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'bootstrap.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:37:28 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('css', 'lib', 'bootstrap.min.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:38:56 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('assets', 'css', 'lib', 'themify-icons.css')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:39:24 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('signin')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:39:30 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:41:43 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'css', 'lib', 'font-awesome.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:41:43 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'css', 'lib', 'themify-icons.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:41:43 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'css', 'lib', 'bootstrap.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:41:43 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'css', 'lib', 'unix.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:41:43 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'css', 'style.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:41:44 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'js', 'lib', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:41:44 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'js', 'lib', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:41:44 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'js', 'myjs.js')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:41:44 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'images', 'fevicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:12 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'lib', 'font-awesome.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:12 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'lib', 'themify-icons.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:12 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'lib', 'bootstrap.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:12 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'style.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:13 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'lib', 'unix.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:13 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'lib', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:13 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'lib', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:13 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'myjs.js')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:13 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'fevicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:16 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'lib', 'font-awesome.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:48 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'lib', 'font-awesome.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:48 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'lib', 'themify-icons.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:48 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'lib', 'bootstrap.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:48 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'lib', 'unix.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:48 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'style.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:48 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'lib', 'jquery.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:48 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'lib', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:48 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'myjs.js')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 22:42:49 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 27.
+ 1 APPPATH\Controllers\Pages.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view([...], 'fevicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-13 23:06:13 --> The route for "http://localhost:8081/counsellor/dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8081/counsellor/dashboard')
+ 2 SYSTEMPATH\Common.php(860): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Pages.php(12): redirect('http://localhost:8081/counsellor/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Pages->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:07:21 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 25.
+ 1 APPPATH\Controllers\Pages.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:07:58 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:08:42 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:09:04 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:09:12 --> The route for "http://localhost:8081/counsellor/dashboard" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8081/counsellor/dashboard')
+ 2 SYSTEMPATH\Common.php(860): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Pages.php(12): redirect('http://localhost:8081/counsellor/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Pages->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:09:17 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 25.
+ 1 APPPATH\Controllers\Pages.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:09:20 --> Undefined array key "action_access"
+in APPPATH\Controllers\Pages.php on line 25.
+ 1 APPPATH\Controllers\Pages.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "action_access"', 'APPPATH\\Controllers\\Pages.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:09:26 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:14:20 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:15:08 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:20:46 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:21:31 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:21:35 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:22:14 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:23:32 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:23:48 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:24:01 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:24:38 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:25:25 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:26:53 --> Object of class CodeIgniter\Session\Session could not be converted to string
+in APPPATH\Controllers\Pages.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Pages->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:26:54 --> Object of class CodeIgniter\Session\Session could not be converted to string
+in APPPATH\Controllers\Pages.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Pages->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:26:54 --> Object of class CodeIgniter\Session\Session could not be converted to string
+in APPPATH\Controllers\Pages.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Pages->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:26:55 --> Object of class CodeIgniter\Session\Session could not be converted to string
+in APPPATH\Controllers\Pages.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Pages->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:27:18 --> Object of class CodeIgniter\Session\Session could not be converted to string
+in APPPATH\Controllers\Pages.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Pages->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:27:33 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:30:35 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:30:55 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:31:00 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:31:04 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:31:10 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:31:16 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:31:47 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:31:50 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:31:54 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:32:21 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:36:57 --> Undefined property: App\Controllers\Pages::$session
+in APPPATH\Controllers\Pages.php on line 18.
+ 1 APPPATH\Controllers\Pages.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pages::$session', 'APPPATH\\Controllers\\Pages.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:37:12 --> Undefined variable $session
+in APPPATH\Controllers\Pages.php on line 18.
+ 1 APPPATH\Controllers\Pages.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Pages.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:37:33 --> Undefined variable $session
+in APPPATH\Controllers\Pages.php on line 18.
+ 1 APPPATH\Controllers\Pages.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Pages.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:37:53 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:38:08 --> Undefined variable $session
+in APPPATH\Controllers\Login.php on line 55.
+ 1 APPPATH\Controllers\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Login.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->signin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:38:26 --> Undefined variable $session
+in APPPATH\Controllers\Login.php on line 55.
+ 1 APPPATH\Controllers\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Login.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->signin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:38:59 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:43:22 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:43:41 --> Undefined variable $session
+in APPPATH\Controllers\Login.php on line 56.
+ 1 APPPATH\Controllers\Login.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Login.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->signin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:43:54 --> Undefined variable $session
+in APPPATH\Controllers\Login.php on line 56.
+ 1 APPPATH\Controllers\Login.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Login.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->signin()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 23:44:27 --> Call to undefined function App\Controllers\get_menu()
+in APPPATH\Controllers\Pages.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

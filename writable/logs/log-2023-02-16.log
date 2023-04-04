@@ -1,0 +1,160 @@
+CRITICAL - 2023-02-16 01:25:54 --> Attempt to read property "f_name" on null
+in APPPATH\Views\admin\user_access.php on line 80.
+ 1 APPPATH\Views\admin\user_access.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH\\Views\\admin\\user_access.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(66): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 02:48:29 --> Invalid file: admin/faculty_course.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/faculty_course.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/faculty_course', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/faculty_course', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 03:40:38 --> Invalid file: admin/web_pages.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/web_pages.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/web_pages', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/web_pages', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 05:18:08 --> Attempt to read property "f_name" on null
+in APPPATH\Views\admin\user_access.php on line 80.
+ 1 APPPATH\Views\admin\user_access.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH\\Views\\admin\\user_access.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(66): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 06:05:48 --> Invalid file: admin/complaint.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/complaint.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/complaint', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/complaint', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 23:13:02 --> The route for "user" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('user')
+ 2 SYSTEMPATH\Common.php(860): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Admin_user.php(69): redirect('user')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 23:13:07 --> The route for "user" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('user')
+ 2 SYSTEMPATH\Common.php(860): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Admin_user.php(69): redirect('user')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 23:13:39 --> The route for "user" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('user')
+ 2 SYSTEMPATH\Common.php(860): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Admin_user.php(69): redirect('user')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 23:13:42 --> Attempt to read property "f_name" on null
+in APPPATH\Views\admin\user_access.php on line 80.
+ 1 APPPATH\Views\admin\user_access.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH\\Views\\admin\\user_access.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(66): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 23:13:52 --> Attempt to read property "f_name" on null
+in APPPATH\Views\admin\user_access.php on line 80.
+ 1 APPPATH\Views\admin\user_access.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH\\Views\\admin\\user_access.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(66): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 23:17:03 --> syntax error, unexpected token "\"
+in APPPATH\Controllers\Admin_user.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin_user.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin_user')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin_user')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin_user', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 23:17:11 --> Attempt to read property "f_name" on null
+in APPPATH\Views\admin\user_access.php on line 80.
+ 1 APPPATH\Views\admin\user_access.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH\\Views\\admin\\user_access.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(68): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 23:17:55 --> The route for "user" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('user')
+ 2 SYSTEMPATH\Common.php(860): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Admin_user.php(71): redirect('user')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 23:17:57 --> Attempt to read property "f_name" on null
+in APPPATH\Views\admin\user_access.php on line 80.
+ 1 APPPATH\Views\admin\user_access.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH\\Views\\admin\\user_access.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(68): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 23:18:01 --> Attempt to read property "f_name" on null
+in APPPATH\Views\admin\user_access.php on line 80.
+ 1 APPPATH\Views\admin\user_access.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH\\Views\\admin\\user_access.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(68): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-16 23:18:27 --> Attempt to read property "f_name" on null
+in APPPATH\Views\admin\user_access.php on line 80.
+ 1 APPPATH\Views\admin\user_access.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH\\Views\\admin\\user_access.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(68): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

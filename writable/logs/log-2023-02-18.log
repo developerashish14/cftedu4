@@ -1,0 +1,42 @@
+CRITICAL - 2023-02-18 03:12:19 --> Call to undefined function App\Controllers\form_error()
+in APPPATH\Controllers\AdminSlider.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminSlider->action_update('add_slider')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSlider))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 03:37:09 --> Invalid file: admin/vlrn-student-registration.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/vlrn-student-registration.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/vlrn-student-registration', [], true)
+ 3 APPPATH\Controllers\Admin.php(97): view('admin/vlrn-student-registration', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 03:41:52 --> Invalid file: admin/report_vc2020_video.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/report_vc2020_video.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/report_vc2020_video', [], true)
+ 3 APPPATH\Controllers\Admin.php(97): view('admin/report_vc2020_video', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 03:44:19 --> Invalid file: admin/offline_course.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/offline_course.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/offline_course', [], true)
+ 3 APPPATH\Controllers\Admin.php(97): view('admin/offline_course', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-18 03:47:04 --> Invalid file: admin/vlrn-student-registration.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/vlrn-student-registration.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/vlrn-student-registration', [], true)
+ 3 APPPATH\Controllers\Admin.php(97): view('admin/vlrn-student-registration', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

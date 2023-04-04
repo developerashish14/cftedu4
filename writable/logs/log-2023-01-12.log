@@ -1,0 +1,1166 @@
+CRITICAL - 2023-01-12 00:42:30 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\my_helper.php on line 44.
+ 1 APPPATH\Helpers\my_helper.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\my_helper.php', 44)
+ 2 APPPATH\Controllers\Pages.php(22): get_menu()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('lms')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 00:52:40 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(240): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(890): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 01:12:10 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(240): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(890): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 01:12:54 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(240): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(890): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 01:13:43 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(240): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(890): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 01:14:00 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(240): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(890): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 01:14:59 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(240): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(890): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 01:15:00 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(240): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(890): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 01:15:00 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(240): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(890): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 01:15:01 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(240): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(890): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 01:17:05 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(240): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(890): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 01:17:11 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(240): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(60): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(890): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 01:18:14 --> Invalid file: adminlogin.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adminlogin.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('adminlogin', [], true)
+ 3 APPPATH\Controllers\AdminHome.php(52): view('adminlogin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 02:54:10 --> Attempt to read property "ip_address" on null
+in APPPATH\Controllers\AdminHome.php on line 43.
+ 1 APPPATH\Controllers\AdminHome.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ip_address" on null', 'APPPATH\\Controllers\\AdminHome.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminHome->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 03:32:02 --> Call to undefined function imagecreate()
+in APPPATH\Helpers\MY_helper.php on line 143.
+ 1 APPPATH\Controllers\AdminHome.php(32): generate_captcha()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminHome->catch_captcha()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 03:33:01 --> Call to undefined function imagecreate()
+in APPPATH\Helpers\MY_helper.php on line 143.
+ 1 APPPATH\Controllers\AdminHome.php(32): generate_captcha()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminHome->catch_captcha()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 03:33:50 --> Call to undefined function imagecreate()
+in APPPATH\Helpers\MY_helper.php on line 143.
+ 1 APPPATH\Controllers\AdminHome.php(32): generate_captcha()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminHome->catch_captcha()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 03:34:02 --> Call to undefined function imagecreate()
+in APPPATH\Helpers\MY_helper.php on line 143.
+ 1 APPPATH\Controllers\AdminHome.php(32): generate_captcha()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminHome->catch_captcha()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 03:34:28 --> Call to undefined function imagecreate()
+in APPPATH\Helpers\MY_helper.php on line 144.
+ 1 APPPATH\Controllers\AdminHome.php(32): generate_captcha()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminHome->catch_captcha()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 03:34:30 --> Call to undefined function imagecreate()
+in APPPATH\Helpers\MY_helper.php on line 144.
+ 1 APPPATH\Controllers\AdminHome.php(32): generate_captcha()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminHome->catch_captcha()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 03:34:30 --> Call to undefined function imagecreate()
+in APPPATH\Helpers\MY_helper.php on line 144.
+ 1 APPPATH\Controllers\AdminHome.php(32): generate_captcha()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminHome->catch_captcha()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 03:34:30 --> Call to undefined function imagecreate()
+in APPPATH\Helpers\MY_helper.php on line 144.
+ 1 APPPATH\Controllers\AdminHome.php(32): generate_captcha()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminHome->catch_captcha()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 03:34:30 --> Call to undefined function imagecreate()
+in APPPATH\Helpers\MY_helper.php on line 144.
+ 1 APPPATH\Controllers\AdminHome.php(32): generate_captcha()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminHome->catch_captcha()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 03:34:30 --> Call to undefined function imagecreate()
+in APPPATH\Helpers\MY_helper.php on line 144.
+ 1 APPPATH\Controllers\AdminHome.php(32): generate_captcha()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminHome->catch_captcha()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 03:34:31 --> Call to undefined function imagecreate()
+in APPPATH\Helpers\MY_helper.php on line 144.
+ 1 APPPATH\Controllers\AdminHome.php(32): generate_captcha()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminHome->catch_captcha()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 03:34:31 --> Call to undefined function imagecreate()
+in APPPATH\Helpers\MY_helper.php on line 144.
+ 1 APPPATH\Controllers\AdminHome.php(32): generate_captcha()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminHome->catch_captcha()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 04:21:41 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin-login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 04:37:33 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin-login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 04:38:16 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin-login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 04:45:15 --> mysqli_sql_exception: Unknown column 'session_id' in 'field list' in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `login` ...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `login` ...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `login` ...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `login` ...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(57): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\cftedu\app\Controllers\Login.php(71): App\Models\CurdModel->update_table('login', Array, Array)
+#6 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Login->signin()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-12 04:45:15 --> Unknown column 'session_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `login` SET `session_id` = 2217
+WHERE `id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `login` SET `session_id` = 2217
+WHERE `id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `login` SET `session_id` = 2217
+WHERE `id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `login` SET `session_id` = :session_id:
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\CurdModel.php(57): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH\Controllers\Login.php(71): App\Models\CurdModel->update_table('login', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->signin()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 05:38:53 --> mysqli_sql_exception: Table 'cftedu.cons_user_access' doesn't exist in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cons_ta...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cons_ta...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cons_ta...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `cons_ta...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('cons_tab.name,c...', 'cons_user_acces...', Array, Array, 'true', 'cons_tab_group....', 'desc')
+#6 C:\xampp\htdocs\cftedu\app\Controllers\Admin.php(9): get_menu()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 05:38:53 --> Table 'cftedu.cons_user_access' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cons_tab`.`name`, `cons_tab`.`page_url`, `cons_tab_group`.`themify`, `cons_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `cons_tab` ON `cons_user_access`.`tab_id`=`cons_tab`.`id`
+LEFT JOIN `cons_tab_group` ON `cons_tab`.`tab_group`=`cons_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `cons_tab_group`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cons_tab`.`name`, `cons_tab`.`page_url`, `cons_tab_group`.`themify`, `cons_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `cons_tab` ON `cons_user_access`.`tab_id`=`cons_tab`.`id`
+LEFT JOIN `cons_tab_group` ON `cons_tab`.`tab_group`=`cons_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `cons_tab_group`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cons_tab`.`name`, `cons_tab`.`page_url`, `cons_tab_group`.`themify`, `cons_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `cons_tab` ON `cons_user_access`.`tab_id`=`cons_tab`.`id`
+LEFT JOIN `cons_tab_group` ON `cons_tab`.`tab_group`=`cons_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `cons_tab_group`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `cons_tab`.`name`, `cons_tab`.`page_url`, `cons_tab_group`.`themify`, `cons_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `cons_tab` ON `cons_user_access`.`tab_id`=`cons_tab`.`id`
+LEFT JOIN `cons_tab_group` ON `cons_tab`.`tab_group`=`cons_tab_group`.`id`
+WHERE `user_id` = :user_id:
+AND `cons_user_access`.`status` = :cons_user_access.status:
+ORDER BY `cons_tab_group`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('cons_tab.name,cons_tab.page_url,cons_tab_group.themify,cons_tab_group.name as group_name,cons_user_access.other_action', 'cons_user_access', [...], [...], 'true', 'cons_tab_group.id', 'desc')
+ 7 APPPATH\Controllers\Admin.php(9): get_menu()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 05:47:12 --> mysqli_sql_exception: Table 'cftedu.cons_user_access' doesn't exist in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lm...', 'cons_user_acces...', Array, Array, 'true', 'lms_tab_group.i...', 'desc')
+#6 C:\xampp\htdocs\cftedu\app\Controllers\Admin.php(9): get_menu()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 05:47:12 --> Table 'cftedu.cons_user_access' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = :user_id:
+AND `cons_user_access`.`status` = :cons_user_access.status:
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lms_tab.page_url,lms_tab_group.themify,lms_tab_group.name as group_name,cons_user_access.other_action', 'cons_user_access', [...], [...], 'true', 'lms_tab_group.id', 'desc')
+ 7 APPPATH\Controllers\Admin.php(9): get_menu()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 05:47:20 --> mysqli_sql_exception: Table 'cftedu.cons_user_access' doesn't exist in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lm...', 'cons_user_acces...', Array, Array, 'true', 'lms_tab_group.i...', 'desc')
+#6 C:\xampp\htdocs\cftedu\app\Controllers\Admin.php(9): get_menu()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 05:47:20 --> Table 'cftedu.cons_user_access' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = :user_id:
+AND `cons_user_access`.`status` = :cons_user_access.status:
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lms_tab.page_url,lms_tab_group.themify,lms_tab_group.name as group_name,cons_user_access.other_action', 'cons_user_access', [...], [...], 'true', 'lms_tab_group.id', 'desc')
+ 7 APPPATH\Controllers\Admin.php(9): get_menu()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 05:47:21 --> mysqli_sql_exception: Table 'cftedu.cons_user_access' doesn't exist in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lm...', 'cons_user_acces...', Array, Array, 'true', 'lms_tab_group.i...', 'desc')
+#6 C:\xampp\htdocs\cftedu\app\Controllers\Admin.php(9): get_menu()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 05:47:21 --> Table 'cftedu.cons_user_access' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = :user_id:
+AND `cons_user_access`.`status` = :cons_user_access.status:
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lms_tab.page_url,lms_tab_group.themify,lms_tab_group.name as group_name,cons_user_access.other_action', 'cons_user_access', [...], [...], 'true', 'lms_tab_group.id', 'desc')
+ 7 APPPATH\Controllers\Admin.php(9): get_menu()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 05:47:21 --> mysqli_sql_exception: Table 'cftedu.cons_user_access' doesn't exist in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lm...', 'cons_user_acces...', Array, Array, 'true', 'lms_tab_group.i...', 'desc')
+#6 C:\xampp\htdocs\cftedu\app\Controllers\Admin.php(9): get_menu()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 05:47:21 --> Table 'cftedu.cons_user_access' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = :user_id:
+AND `cons_user_access`.`status` = :cons_user_access.status:
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lms_tab.page_url,lms_tab_group.themify,lms_tab_group.name as group_name,cons_user_access.other_action', 'cons_user_access', [...], [...], 'true', 'lms_tab_group.id', 'desc')
+ 7 APPPATH\Controllers\Admin.php(9): get_menu()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 05:47:21 --> mysqli_sql_exception: Table 'cftedu.cons_user_access' doesn't exist in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lm...', 'cons_user_acces...', Array, Array, 'true', 'lms_tab_group.i...', 'desc')
+#6 C:\xampp\htdocs\cftedu\app\Controllers\Admin.php(9): get_menu()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 05:47:21 --> Table 'cftedu.cons_user_access' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = :user_id:
+AND `cons_user_access`.`status` = :cons_user_access.status:
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lms_tab.page_url,lms_tab_group.themify,lms_tab_group.name as group_name,cons_user_access.other_action', 'cons_user_access', [...], [...], 'true', 'lms_tab_group.id', 'desc')
+ 7 APPPATH\Controllers\Admin.php(9): get_menu()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 05:47:21 --> mysqli_sql_exception: Table 'cftedu.cons_user_access' doesn't exist in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lm...', 'cons_user_acces...', Array, Array, 'true', 'lms_tab_group.i...', 'desc')
+#6 C:\xampp\htdocs\cftedu\app\Controllers\Admin.php(9): get_menu()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 05:47:21 --> Table 'cftedu.cons_user_access' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = :user_id:
+AND `cons_user_access`.`status` = :cons_user_access.status:
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lms_tab.page_url,lms_tab_group.themify,lms_tab_group.name as group_name,cons_user_access.other_action', 'cons_user_access', [...], [...], 'true', 'lms_tab_group.id', 'desc')
+ 7 APPPATH\Controllers\Admin.php(9): get_menu()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 05:47:21 --> mysqli_sql_exception: Table 'cftedu.cons_user_access' doesn't exist in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lm...', 'cons_user_acces...', Array, Array, 'true', 'lms_tab_group.i...', 'desc')
+#6 C:\xampp\htdocs\cftedu\app\Controllers\Admin.php(9): get_menu()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 05:47:21 --> Table 'cftedu.cons_user_access' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = :user_id:
+AND `cons_user_access`.`status` = :cons_user_access.status:
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lms_tab.page_url,lms_tab_group.themify,lms_tab_group.name as group_name,cons_user_access.other_action', 'cons_user_access', [...], [...], 'true', 'lms_tab_group.id', 'desc')
+ 7 APPPATH\Controllers\Admin.php(9): get_menu()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 05:47:21 --> mysqli_sql_exception: Table 'cftedu.cons_user_access' doesn't exist in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lm...', 'cons_user_acces...', Array, Array, 'true', 'lms_tab_group.i...', 'desc')
+#6 C:\xampp\htdocs\cftedu\app\Controllers\Admin.php(9): get_menu()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 05:47:21 --> Table 'cftedu.cons_user_access' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = :user_id:
+AND `cons_user_access`.`status` = :cons_user_access.status:
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lms_tab.page_url,lms_tab_group.themify,lms_tab_group.name as group_name,cons_user_access.other_action', 'cons_user_access', [...], [...], 'true', 'lms_tab_group.id', 'desc')
+ 7 APPPATH\Controllers\Admin.php(9): get_menu()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 05:47:22 --> mysqli_sql_exception: Table 'cftedu.cons_user_access' doesn't exist in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lm...', 'cons_user_acces...', Array, Array, 'true', 'lms_tab_group.i...', 'desc')
+#6 C:\xampp\htdocs\cftedu\app\Controllers\Admin.php(9): get_menu()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 05:47:22 --> Table 'cftedu.cons_user_access' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `lms_tab` ON `cons_user_access`.`tab_id`=`lms_tab`.`id`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`tab_group`=`lms_tab_group`.`id`
+WHERE `user_id` = :user_id:
+AND `cons_user_access`.`status` = :cons_user_access.status:
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('lms_tab.name,lms_tab.page_url,lms_tab_group.themify,lms_tab_group.name as group_name,cons_user_access.other_action', 'cons_user_access', [...], [...], 'true', 'lms_tab_group.id', 'desc')
+ 7 APPPATH\Controllers\Admin.php(9): get_menu()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 05:47:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':1:' at line 3 in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(95): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Controllers\Admin.php(17): App\Models\CurdModel->count_where('frm_student_reg...', Array)
+#6 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin->view(Array)
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-12 05:47:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':1:' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `frm_student_registration`
+WHERE 1 = :1:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `frm_student_registration`
+WHERE 1 = :1:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `frm_student_registration`
+WHERE 1 = :1:')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `frm_student_registration`
+WHERE 1 = :1:', [...], false)
+ 5 APPPATH\Models\CurdModel.php(95): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(17): App\Models\CurdModel->count_where('frm_student_registration', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 05:48:13 --> mysqli_sql_exception: Table 'cftedu.cons_user_access' doesn't exist in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cons_ta...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cons_ta...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cons_ta...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `cons_ta...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('cons_tab.name,c...', 'cons_user_acces...', Array, Array, 'true', 'cons_tab_group....', 'desc')
+#6 C:\xampp\htdocs\cftedu\app\Controllers\Admin.php(9): get_menu()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 05:48:13 --> Table 'cftedu.cons_user_access' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cons_tab`.`name`, `cons_tab`.`page_url`, `cons_tab_group`.`themify`, `cons_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `cons_tab` ON `cons_user_access`.`tab_id`=`cons_tab`.`id`
+LEFT JOIN `cons_tab_group` ON `cons_tab`.`tab_group`=`cons_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `cons_tab_group`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cons_tab`.`name`, `cons_tab`.`page_url`, `cons_tab_group`.`themify`, `cons_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `cons_tab` ON `cons_user_access`.`tab_id`=`cons_tab`.`id`
+LEFT JOIN `cons_tab_group` ON `cons_tab`.`tab_group`=`cons_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `cons_tab_group`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cons_tab`.`name`, `cons_tab`.`page_url`, `cons_tab_group`.`themify`, `cons_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `cons_tab` ON `cons_user_access`.`tab_id`=`cons_tab`.`id`
+LEFT JOIN `cons_tab_group` ON `cons_tab`.`tab_group`=`cons_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `cons_user_access`.`status` = \'A\'
+ORDER BY `cons_tab_group`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `cons_tab`.`name`, `cons_tab`.`page_url`, `cons_tab_group`.`themify`, `cons_tab_group`.`name` as `group_name`, `cons_user_access`.`other_action`
+FROM `cons_user_access`
+LEFT JOIN `cons_tab` ON `cons_user_access`.`tab_id`=`cons_tab`.`id`
+LEFT JOIN `cons_tab_group` ON `cons_tab`.`tab_group`=`cons_tab_group`.`id`
+WHERE `user_id` = :user_id:
+AND `cons_user_access`.`status` = :cons_user_access.status:
+ORDER BY `cons_tab_group`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('cons_tab.name,cons_tab.page_url,cons_tab_group.themify,cons_tab_group.name as group_name,cons_user_access.other_action', 'cons_user_access', [...], [...], 'true', 'cons_tab_group.id', 'desc')
+ 7 APPPATH\Controllers\Admin.php(9): get_menu()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 05:48:23 --> mysqli_sql_exception: Table 'cftedu.cons_tab' doesn't exist in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cons_ta...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cons_ta...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cons_ta...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `cons_ta...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('cons_tab.name,c...', 'lms_user_access', Array, Array, 'true', 'cons_tab_group....', 'desc')
+#6 C:\xampp\htdocs\cftedu\app\Controllers\Admin.php(9): get_menu()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-12 05:48:23 --> Table 'cftedu.cons_tab' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `cons_tab`.`name`, `cons_tab`.`page_url`, `cons_tab_group`.`themify`, `cons_tab_group`.`name` as `group_name`, `lms_user_access`.`other_action`
+FROM `lms_user_access`
+LEFT JOIN `cons_tab` ON `lms_user_access`.`tab_id`=`cons_tab`.`id`
+LEFT JOIN `cons_tab_group` ON `cons_tab`.`tab_group`=`cons_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `lms_user_access`.`status` = \'A\'
+ORDER BY `cons_tab_group`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cons_tab`.`name`, `cons_tab`.`page_url`, `cons_tab_group`.`themify`, `cons_tab_group`.`name` as `group_name`, `lms_user_access`.`other_action`
+FROM `lms_user_access`
+LEFT JOIN `cons_tab` ON `lms_user_access`.`tab_id`=`cons_tab`.`id`
+LEFT JOIN `cons_tab_group` ON `cons_tab`.`tab_group`=`cons_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `lms_user_access`.`status` = \'A\'
+ORDER BY `cons_tab_group`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cons_tab`.`name`, `cons_tab`.`page_url`, `cons_tab_group`.`themify`, `cons_tab_group`.`name` as `group_name`, `lms_user_access`.`other_action`
+FROM `lms_user_access`
+LEFT JOIN `cons_tab` ON `lms_user_access`.`tab_id`=`cons_tab`.`id`
+LEFT JOIN `cons_tab_group` ON `cons_tab`.`tab_group`=`cons_tab_group`.`id`
+WHERE `user_id` = \'1\'
+AND `lms_user_access`.`status` = \'A\'
+ORDER BY `cons_tab_group`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `cons_tab`.`name`, `cons_tab`.`page_url`, `cons_tab_group`.`themify`, `cons_tab_group`.`name` as `group_name`, `lms_user_access`.`other_action`
+FROM `lms_user_access`
+LEFT JOIN `cons_tab` ON `lms_user_access`.`tab_id`=`cons_tab`.`id`
+LEFT JOIN `cons_tab_group` ON `cons_tab`.`tab_group`=`cons_tab_group`.`id`
+WHERE `user_id` = :user_id:
+AND `lms_user_access`.`status` = :lms_user_access.status:
+ORDER BY `cons_tab_group`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Helpers\MY_helper.php(100): App\Models\CurdModel->jointable('cons_tab.name,cons_tab.page_url,cons_tab_group.themify,cons_tab_group.name as group_name,lms_user_access.other_action', 'lms_user_access', [...], [...], 'true', 'cons_tab_group.id', 'desc')
+ 7 APPPATH\Controllers\Admin.php(9): get_menu()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view('dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 05:48:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':1:' at line 3 in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(95): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Controllers\Admin.php(17): App\Models\CurdModel->count_where('frm_student_reg...', Array)
+#6 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin->view(Array)
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-12 05:48:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':1:' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `frm_student_registration`
+WHERE 1 = :1:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `frm_student_registration`
+WHERE 1 = :1:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `frm_student_registration`
+WHERE 1 = :1:')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `frm_student_registration`
+WHERE 1 = :1:', [...], false)
+ 5 APPPATH\Models\CurdModel.php(95): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(17): App\Models\CurdModel->count_where('frm_student_registration', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:09:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(20): CodeIgniter\Model->__call('select_where_single_like', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:09:51 --> Invalid file: admin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:10:53 --> Invalid file: admin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:11:10 --> Invalid file: admin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:11:10 --> Invalid file: admin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:11:11 --> Invalid file: admin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:11:11 --> Invalid file: admin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:11:11 --> Invalid file: admin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:11:11 --> Invalid file: admin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:11:11 --> Invalid file: admin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:11:11 --> Invalid file: admin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:11:12 --> Invalid file: admin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:11:12 --> Invalid file: admin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:11:12 --> Invalid file: admin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:11:17 --> Invalid file: admin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:11:37 --> include(default/header_script.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\dashboard.php on line 4.
+ 1 APPPATH\Views\admin\dashboard.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(default/header_script.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\admin\\dashboard.php', 4)
+ 2 APPPATH\Views\admin\dashboard.php(4): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 6 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:12:40 --> Undefined array key "grievance"
+in APPPATH\Views\admin\dashboard.php on line 24.
+ 1 APPPATH\Views\admin\dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "grievance"', 'APPPATH\\Views\\admin\\dashboard.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-12 06:14:11 --> Undefined variable $contact
+in APPPATH\Views\admin\dashboard.php on line 157.
+ 1 APPPATH\Views\admin\dashboard.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contact', 'APPPATH\\Views\\admin\\dashboard.php', 157)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin.php(179): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,73 @@
+CRITICAL - 2023-02-22 01:14:47 --> Undefined variable $pages
+in APPPATH\Views\admin\programs.php on line 87.
+ 1 APPPATH\Views\admin\programs.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pages', 'APPPATH\\Views\\admin\\programs.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\programs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/programs', [], true)
+ 5 APPPATH\Controllers\Admin.php(97): view('admin/programs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 01:16:42 --> Undefined variable $pages
+in APPPATH\Views\admin\programs.php on line 87.
+ 1 APPPATH\Views\admin\programs.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pages', 'APPPATH\\Views\\admin\\programs.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\programs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/programs', [], true)
+ 5 APPPATH\Controllers\Admin.php(97): view('admin/programs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 01:17:57 --> Undefined variable $pages
+in APPPATH\Views\admin\programs.php on line 87.
+ 1 APPPATH\Views\admin\programs.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pages', 'APPPATH\\Views\\admin\\programs.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\programs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/programs', [], true)
+ 5 APPPATH\Controllers\Admin.php(97): view('admin/programs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 01:18:03 --> Undefined variable $pages
+in APPPATH\Views\admin\programs.php on line 87.
+ 1 APPPATH\Views\admin\programs.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pages', 'APPPATH\\Views\\admin\\programs.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\programs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/programs', [], true)
+ 5 APPPATH\Controllers\Admin.php(97): view('admin/programs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 01:20:41 --> Undefined variable $programs
+in APPPATH\Views\admin\programs.php on line 87.
+ 1 APPPATH\Views\admin\programs.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $programs', 'APPPATH\\Views\\admin\\programs.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\programs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/programs', [], true)
+ 5 APPPATH\Controllers\Admin.php(97): view('admin/programs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 03:30:09 --> Invalid file: admin/offline_course.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/offline_course.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/offline_course', [], true)
+ 3 APPPATH\Controllers\Admin.php(104): view('admin/offline_course', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 03:51:23 --> Invalid file: admin/offline_course.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/offline_course.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/offline_course', [], true)
+ 3 APPPATH\Controllers\Admin.php(104): view('admin/offline_course', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

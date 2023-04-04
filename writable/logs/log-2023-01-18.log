@@ -1,0 +1,7 @@
+CRITICAL - 2023-01-18 03:40:26 --> Undefined array key "status"
+in APPPATH\Controllers\Admin_user.php on line 126.
+ 1 APPPATH\Controllers\Admin_user.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Controllers\\Admin_user.php', 126)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->action_update('add_user_info')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

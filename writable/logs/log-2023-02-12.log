@@ -1,0 +1,115 @@
+CRITICAL - 2023-02-12 22:32:27 --> Invalid file: admin/web_pages.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/web_pages.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/web_pages', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/web_pages', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 22:32:31 --> Invalid file: admin/web_pages.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/web_pages.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/web_pages', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/web_pages', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 22:35:35 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 130.
+ 1 APPPATH\Views\admin\user_access.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 130)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(68): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 22:39:26 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 130.
+ 1 APPPATH\Views\admin\user_access.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 130)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(68): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 22:51:57 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 130.
+ 1 APPPATH\Views\admin\user_access.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 130)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(67): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 22:59:17 --> syntax error, unexpected variable "$this", expecting "," or ";"
+in APPPATH\Controllers\Admin_user.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin_user.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin_user')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin_user')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin_user', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 23:02:16 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 130.
+ 1 APPPATH\Views\admin\user_access.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 130)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(66): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 23:34:10 --> Array to string conversion
+in APPPATH\Views\admin\user_access.php on line 130.
+ 1 APPPATH\Views\admin\user_access.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\user_access.php', 130)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(66): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 23:40:53 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 133.
+ 1 APPPATH\Views\admin\user_access.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 133)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(66): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 23:42:42 --> Undefined array key "icon"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(66): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-12 23:42:59 --> Undefined array key "other_action"
+in APPPATH\Views\admin\user_access.php on line 134.
+ 1 APPPATH\Views\admin\user_access.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "other_action"', 'APPPATH\\Views\\admin\\user_access.php', 134)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(66): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,513 @@
+CRITICAL - 2023-04-03 02:12:09 --> Invalid file: admin/services.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/services.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/services', [], true)
+ 3 APPPATH\Controllers\Admin.php(192): view('admin/services', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 02:12:55 --> Invalid file: admin/services.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/services.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/services', [], true)
+ 3 APPPATH\Controllers\Admin.php(192): view('admin/services', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-03 02:18:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':1:
+ORDER BY `f_name` ASC' at line 3 in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Controllers\Admin.php(163): App\Models\CurdModel->get_all('*', 'login', Array, 'f_name', 'ASC')
+#6 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin->view(Array)
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-03 02:18:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':1:
+ORDER BY `f_name` ASC' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `login`
+WHERE 1 = :1:
+ORDER BY `f_name` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `login`
+WHERE 1 = :1:
+ORDER BY `f_name` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `login`
+WHERE 1 = :1:
+ORDER BY `f_name` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE 1 = :1:
+ORDER BY `f_name` ASC', [...], false)
+ 5 APPPATH\Models\CurdModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(163): App\Models\CurdModel->get_all('*', 'login', [...], 'f_name', 'ASC')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 02:18:56 --> Invalid file: admin/contact.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/contact.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/contact', [], true)
+ 3 APPPATH\Controllers\Admin.php(202): view('admin/contact', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:43:40 --> Invalid file: admin/promo_code.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/promo_code.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/promo_code', [], true)
+ 3 APPPATH\Controllers\Admin.php(730): view('admin/promo_code', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:44:00 --> Invalid file: admin/fun_fact.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/fun_fact.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/fun_fact', [], true)
+ 3 APPPATH\Controllers\Admin.php(730): view('admin/fun_fact', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:44:09 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Admin.php on line 280.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:44:17 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Admin.php on line 280.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:44:18 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Admin.php on line 280.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:44:29 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Admin.php on line 305.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:44:36 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Admin.php on line 305.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:44:39 --> Invalid file: admin/demo_course.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/demo_course.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/demo_course', [], true)
+ 3 APPPATH\Controllers\Admin.php(730): view('admin/demo_course', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:44:54 --> Invalid file: admin/team.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/team.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/team', [], true)
+ 3 APPPATH\Controllers\Admin.php(730): view('admin/team', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:45:05 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Admin.php on line 280.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:45:13 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Admin.php on line 176.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:45:17 --> Invalid file: admin/online_classroom.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/online_classroom.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/online_classroom', [], true)
+ 3 APPPATH\Controllers\Admin.php(730): view('admin/online_classroom', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:45:34 --> Invalid file: admin/testimonial.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/testimonial.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/testimonial', [], true)
+ 3 APPPATH\Controllers\Admin.php(730): view('admin/testimonial', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:45:42 --> Invalid file: admin/board.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/board.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/board', [], true)
+ 3 APPPATH\Controllers\Admin.php(730): view('admin/board', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:45:54 --> Invalid file: admin/logos.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/logos.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/logos', [], true)
+ 3 APPPATH\Controllers\Admin.php(730): view('admin/logos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:46:08 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 293 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(293): App\Models\CurdModel->customquery1('select * from `frm_event_registration` where `insert_time` between \'2023-04-03 00:00:00\' and \'2023-04-03 23:59:59\' ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:56:33 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Admin.php on line 280.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:56:40 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Admin.php on line 176.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:56:44 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Admin.php on line 176.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:56:49 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Admin.php on line 176.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:56:58 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Admin.php on line 305.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:57:04 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 293 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(293): App\Models\CurdModel->customquery1('select * from `frm_event_registration` where `insert_time` between \'2023-04-03 00:00:00\' and \'2023-04-03 23:59:59\' ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:57:10 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 636 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(636): App\Models\CurdModel->customquery1('select * from `vrl_student_registration` where `insert_time` between "2023-04-03 00:00:00" AND "2023-04-03 23:59:59"')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:57:17 --> Invalid file: admin/vlrn-student-course.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/vlrn-student-course.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/vlrn-student-course', [], true)
+ 3 APPPATH\Controllers\Admin.php(730): view('admin/vlrn-student-course', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:57:33 --> Invalid file: admin/vlrn-course.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/vlrn-course.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/vlrn-course', [], true)
+ 3 APPPATH\Controllers\Admin.php(730): view('admin/vlrn-course', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:57:41 --> Undefined array key 22
+in APPPATH\Views\admin\vlrn-course.php on line 195.
+ 1 APPPATH\Views\admin\vlrn-course.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 22', 'APPPATH\\Views\\admin\\vlrn-course.php', 195)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\vlrn-course.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/vlrn-course', [], true)
+ 5 APPPATH\Controllers\Admin.php(730): view('admin/vlrn-course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:57:45 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 610 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(610): App\Models\CurdModel->customquery1('select * from `vlrn_student_signup` where `last_update` between \'2023-04-03 00:00:00\' AND \'2023-04-03 23:59:59\' AND status = \'P\'  order by `id` DESC')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:57:51 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 584 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(584): App\Models\CurdModel->customquery1('select * from `student_registration` where `insert_time` between "2023-04-03 00:00:00" AND "2023-04-03 23:59:59"')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:58:01 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 584 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(584): App\Models\CurdModel->customquery1('select * from `student_registration` where `insert_time` between "2023-04-03 00:00:00" AND "2023-04-03 23:59:59"')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:58:03 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 584 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(584): App\Models\CurdModel->customquery1('select * from `student_registration` where `insert_time` between "2023-04-03 00:00:00" AND "2023-04-03 23:59:59"')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:58:07 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 535 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(535): App\Models\CurdModel->customquery1('select * from `20_20_class` where `class_time` LIKE "2023-04-03%" order by `id` DESC')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:58:24 --> Invalid file: admin/virtual_batch.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/virtual_batch.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/virtual_batch', [], true)
+ 3 APPPATH\Controllers\Admin.php(730): view('admin/virtual_batch', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:58:33 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 550 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(550): App\Models\CurdModel->customquery1('select *, SEC_TO_TIME(SUM(time_to_sec(TIMEDIFF(`end_time`,`start_time`)))) as "watch_duration" from `2020_class_watching` where `insert_time` BETWEEN "2023-04-03 00:00:00" AND "2023-04-03 23:59:59" group by `phone` ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:58:42 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 562 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(562): App\Models\CurdModel->customquery1('select * from `20_20_class_video` where `status` = "A"  order by `id` DESC')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:58:51 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 562 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(562): App\Models\CurdModel->customquery1('select * from `20_20_class_video` where `status` = "A"  order by `id` DESC')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:58:53 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 562 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(562): App\Models\CurdModel->customquery1('select * from `20_20_class_video` where `status` = "A"  order by `id` DESC')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 03:58:58 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 513 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(513): App\Models\CurdModel->customquery1('select * from `amount_transaction` where `insert_time` between "2023-04-03 00:00:00" and "2023-04-03 23:59:59" AND `status` = "P"  and `product_info` <> \'School\'   order BY `id` DESC ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:04:33 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 487 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(487): App\Models\CurdModel->customquery1('select `bill_id` from `international_invoice` where `last_update` BETWEEN "2023-04-03 00:00:00" AND "2023-04-03 23:59:59" ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:05:22 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 475 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(475): App\Models\CurdModel->customquery1('select * from `payment_link` where `last_update` BETWEEN "2023-04-03 00:00:00" AND "2023-04-03 23:59:59" ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:05:32 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 475 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(475): App\Models\CurdModel->customquery1('select * from `payment_link` where `last_update` BETWEEN "2023-04-03 00:00:00" AND "2023-04-03 23:59:59" ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:05:37 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 451 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(451): App\Models\CurdModel->customquery1('select * from `cft_certificate` where `status` = \'A\' and `insert_at` between \'2023-04-03 00:00:00\' and \'2023-04-03 23:59:59\' order by `id` DESC ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:05:48 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 464 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(464): App\Models\CurdModel->customquery1('select * from `certificate` where `status` = \'A\' and `insert_at` between \'2023-04-03 00:00:00\' and \'2023-04-03 23:59:59\' order by `id` DESC ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:05:58 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 562 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(562): App\Models\CurdModel->customquery1('select * from `20_20_class_video` where `status` = "A"  order by `id` DESC')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:08:21 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 475 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(475): App\Models\CurdModel->customquery1('select * from `payment_link` where `last_update` BETWEEN "2023-04-03 00:00:00" AND "2023-04-03 23:59:59" ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:08:28 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 451 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(451): App\Models\CurdModel->customquery1('select * from `cft_certificate` where `status` = \'A\' and `insert_at` between \'2023-04-03 00:00:00\' and \'2023-04-03 23:59:59\' order by `id` DESC ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:08:32 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 550 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(550): App\Models\CurdModel->customquery1('select *, SEC_TO_TIME(SUM(time_to_sec(TIMEDIFF(`end_time`,`start_time`)))) as "watch_duration" from `2020_class_watching` where `insert_time` BETWEEN "2023-04-03 00:00:00" AND "2023-04-03 23:59:59" group by `phone` ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:08:34 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 562 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(562): App\Models\CurdModel->customquery1('select * from `20_20_class_video` where `status` = "A"  order by `id` DESC')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:10:49 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 513 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(513): App\Models\CurdModel->customquery1('select * from `amount_transaction` where `insert_time` between "2023-04-03 00:00:00" and "2023-04-03 23:59:59" AND `status` = "P"  and `product_info` <> \'School\'   order BY `id` DESC ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:11:01 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 487 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(487): App\Models\CurdModel->customquery1('select `bill_id` from `international_invoice` where `last_update` BETWEEN "2023-04-03 00:00:00" AND "2023-04-03 23:59:59" ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:11:33 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 475 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(475): App\Models\CurdModel->customquery1('select * from `payment_link` where `last_update` BETWEEN "2023-04-03 00:00:00" AND "2023-04-03 23:59:59" ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:12:38 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 451 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(451): App\Models\CurdModel->customquery1('select * from `cft_certificate` where `status` = \'A\' and `insert_at` between \'2023-04-03 00:00:00\' and \'2023-04-03 23:59:59\' order by `id` DESC ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:14:37 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 451 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(451): App\Models\CurdModel->customquery1('select * from `cft_certificate` where `status` = \'A\' and `insert_at` between \'2023-04-03 00:00:00\' and \'2023-04-03 23:59:59\' order by `id` DESC ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:14:41 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 451 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(451): App\Models\CurdModel->customquery1('select * from `cft_certificate` where `status` = \'A\' and `insert_at` between \'2023-04-03 00:00:00\' and \'2023-04-03 23:59:59\' order by `id` DESC ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:20:12 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 464 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(464): App\Models\CurdModel->customquery1('select * from `certificate` where `status` = \'A\' and `insert_at` between \'2023-04-03 00:00:00\' and \'2023-04-03 23:59:59\' order by `id` DESC ')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:20:37 --> Invalid file: admin/certificate_signature.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/certificate_signature.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/certificate_signature', [], true)
+ 3 APPPATH\Controllers\Admin.php(730): view('admin/certificate_signature', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:20:50 --> Invalid file: admin/program.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/program.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/program', [], true)
+ 3 APPPATH\Controllers\Admin.php(730): view('admin/program', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:21:03 --> Invalid file: admin/offline_program.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/offline_program.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/offline_program', [], true)
+ 3 APPPATH\Controllers\Admin.php(730): view('admin/offline_program', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:21:28 --> Invalid file: admin/course.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/course.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/course', [], true)
+ 3 APPPATH\Controllers\Admin.php(730): view('admin/course', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 04:21:57 --> Invalid file: admin/offline_course.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/offline_course.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/offline_course', [], true)
+ 3 APPPATH\Controllers\Admin.php(730): view('admin/offline_course', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-03 05:53:23 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Controllers\Admin.php on line 257.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-03 06:24:40 --> Array to string conversion
+in APPPATH\Controllers\Admin.php on line 257.
+ 1 APPPATH\Controllers\Admin.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Admin.php', 257)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

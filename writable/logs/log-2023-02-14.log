@@ -1,0 +1,11 @@
+CRITICAL - 2023-02-14 00:11:39 --> Attempt to read property "f_name" on null
+in APPPATH\Views\admin\user_access.php on line 80.
+ 1 APPPATH\Views\admin\user_access.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH\\Views\\admin\\user_access.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(66): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,159 @@
+CRITICAL - 2023-03-29 00:53:20 --> Invalid file: admin/complaint.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/complaint.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/complaint', [], true)
+ 3 APPPATH\Controllers\Admin.php(149): view('admin/complaint', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 00:55:53 --> Too few arguments to function App\Models\CurdModel::customquery1(), 1 passed in C:\xampp\htdocs\cftedu\app\Controllers\Admin.php on line 131 and exactly 2 expected
+in APPPATH\Models\CurdModel.php on line 99.
+ 1 APPPATH\Controllers\Admin.php(131): App\Models\CurdModel->customquery1('select * from `complaint` where `insert_time` between "2023-03-29 00:00:00" AND "2023-03-29 23:59:59" AND  stage_id = 1 order by `last_update` DESC')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 01:51:01 --> Invalid file: admin/complaint.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/complaint.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/complaint', [], true)
+ 3 APPPATH\Controllers\Admin.php(187): view('admin/complaint', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 03:41:01 --> Unmatched '}'
+in APPPATH\Views\admin\complaint.php on line 187.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/complaint', [], true)
+ 3 APPPATH\Controllers\Admin.php(187): view('admin/complaint', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 03:41:35 --> Unmatched '}'
+in APPPATH\Views\admin\complaint.php on line 187.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/complaint', [], true)
+ 3 APPPATH\Controllers\Admin.php(187): view('admin/complaint', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 03:43:02 --> Unmatched '}'
+in APPPATH\Views\admin\complaint.php on line 186.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/complaint', [], true)
+ 3 APPPATH\Controllers\Admin.php(187): view('admin/complaint', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 03:43:11 --> Unmatched '}'
+in APPPATH\Views\admin\complaint.php on line 187.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/complaint', [], true)
+ 3 APPPATH\Controllers\Admin.php(187): view('admin/complaint', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 03:50:50 --> Unmatched '}'
+in APPPATH\Views\admin\complaint.php on line 187.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/complaint', [], true)
+ 3 APPPATH\Controllers\Admin.php(187): view('admin/complaint', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 03:51:06 --> Undefined property: stdClass::$stage_id
+in APPPATH\Views\admin\complaint.php on line 175.
+ 1 APPPATH\Views\admin\complaint.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$stage_id', 'APPPATH\\Views\\admin\\complaint.php', 175)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\complaint.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/complaint', [], true)
+ 5 APPPATH\Controllers\Admin.php(187): view('admin/complaint', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 03:51:12 --> Unmatched '}'
+in APPPATH\Views\admin\complaint.php on line 187.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/complaint', [], true)
+ 3 APPPATH\Controllers\Admin.php(187): view('admin/complaint', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 03:59:03 --> Unmatched '}'
+in APPPATH\Views\admin\complaint.php on line 190.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/complaint', [], true)
+ 3 APPPATH\Controllers\Admin.php(187): view('admin/complaint', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 03:59:41 --> Unmatched '}'
+in APPPATH\Views\admin\complaint.php on line 186.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/complaint', [], true)
+ 3 APPPATH\Controllers\Admin.php(187): view('admin/complaint', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 04:01:12 --> Unmatched '}'
+in APPPATH\Views\admin\complaint.php on line 188.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/complaint', [], true)
+ 3 APPPATH\Controllers\Admin.php(187): view('admin/complaint', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 04:11:36 --> Undefined array key "to_date"
+in APPPATH\Controllers\Admin.php on line 126.
+ 1 APPPATH\Controllers\Admin.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "to_date"', 'APPPATH\\Controllers\\Admin.php', 126)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 04:11:37 --> Undefined array key "to_date"
+in APPPATH\Controllers\Admin.php on line 126.
+ 1 APPPATH\Controllers\Admin.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "to_date"', 'APPPATH\\Controllers\\Admin.php', 126)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 04:11:39 --> Undefined array key "to_date"
+in APPPATH\Controllers\Admin.php on line 126.
+ 1 APPPATH\Controllers\Admin.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "to_date"', 'APPPATH\\Controllers\\Admin.php', 126)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 04:11:39 --> Undefined array key "to_date"
+in APPPATH\Controllers\Admin.php on line 126.
+ 1 APPPATH\Controllers\Admin.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "to_date"', 'APPPATH\\Controllers\\Admin.php', 126)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 04:12:00 --> Undefined array key "to_date"
+in APPPATH\Controllers\Admin.php on line 126.
+ 1 APPPATH\Controllers\Admin.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "to_date"', 'APPPATH\\Controllers\\Admin.php', 126)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-29 04:51:59 --> Array to string conversion
+in APPPATH\Controllers\Admin.php on line 133.
+ 1 APPPATH\Controllers\Admin.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Admin.php', 133)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

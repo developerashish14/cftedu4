@@ -1,0 +1,664 @@
+ERROR - 2023-02-09 00:12:00 --> mysqli_sql_exception: Table 'cftedu.tab' doesn't exist in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tab`.`o...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tab`.`o...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tab`.`o...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tab`.`o...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Controllers\Admin_user.php(47): App\Models\CurdModel->jointable('tab.other_actio...', 'tab', Array, Array, 'true', 'tab_group.id', 'desc')
+#6 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-09 00:12:00 --> Table 'cftedu.tab' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tab`.`other_action`, `tab`.`id` as `tab_id`, `tab`.`name`, `tab`.`page_url`, `tab_group`.`themify`, `tab_group`.`name` as `group_name`
+FROM `tab`
+LEFT JOIN `tab_group` ON `tab`.`tab_group`=`tab_group`.`id`
+ORDER BY `tab_group`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tab`.`other_action`, `tab`.`id` as `tab_id`, `tab`.`name`, `tab`.`page_url`, `tab_group`.`themify`, `tab_group`.`name` as `group_name`
+FROM `tab`
+LEFT JOIN `tab_group` ON `tab`.`tab_group`=`tab_group`.`id`
+ORDER BY `tab_group`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tab`.`other_action`, `tab`.`id` as `tab_id`, `tab`.`name`, `tab`.`page_url`, `tab_group`.`themify`, `tab_group`.`name` as `group_name`
+FROM `tab`
+LEFT JOIN `tab_group` ON `tab`.`tab_group`=`tab_group`.`id`
+ORDER BY `tab_group`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tab`.`other_action`, `tab`.`id` as `tab_id`, `tab`.`name`, `tab`.`page_url`, `tab_group`.`themify`, `tab_group`.`name` as `group_name`
+FROM `tab`
+LEFT JOIN `tab_group` ON `tab`.`tab_group`=`tab_group`.`id`
+ORDER BY `tab_group`.`id` DESC
+ LIMIT 100', [], false)
+ 5 APPPATH\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin_user.php(47): App\Models\CurdModel->jointable('tab.other_action,tab.id as tab_id,tab.name,tab.page_url,tab_group.themify,tab_group.name as group_name', 'tab', [...], [], 'true', 'tab_group.id', 'desc')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-09 00:20:48 --> mysqli_sql_exception: Table 'cftedu.tab' doesn't exist in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tab`.`o...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tab`.`o...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tab`.`o...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tab`.`o...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Controllers\Admin_user.php(47): App\Models\CurdModel->jointable('tab.other_actio...', 'tab', Array, Array, 'true', 'tab_group.id', 'desc')
+#6 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-09 00:20:48 --> Table 'cftedu.tab' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tab`.`other_action`, `tab`.`id` as `tab_id`, `tab`.`name`, `tab`.`page_url`, `tab_group`.`themify`, `tab_group`.`name` as `group_name`
+FROM `tab`
+LEFT JOIN `tab_group` ON `tab`.`tab_group`=`tab_group`.`id`
+ORDER BY `tab_group`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tab`.`other_action`, `tab`.`id` as `tab_id`, `tab`.`name`, `tab`.`page_url`, `tab_group`.`themify`, `tab_group`.`name` as `group_name`
+FROM `tab`
+LEFT JOIN `tab_group` ON `tab`.`tab_group`=`tab_group`.`id`
+ORDER BY `tab_group`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tab`.`other_action`, `tab`.`id` as `tab_id`, `tab`.`name`, `tab`.`page_url`, `tab_group`.`themify`, `tab_group`.`name` as `group_name`
+FROM `tab`
+LEFT JOIN `tab_group` ON `tab`.`tab_group`=`tab_group`.`id`
+ORDER BY `tab_group`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tab`.`other_action`, `tab`.`id` as `tab_id`, `tab`.`name`, `tab`.`page_url`, `tab_group`.`themify`, `tab_group`.`name` as `group_name`
+FROM `tab`
+LEFT JOIN `tab_group` ON `tab`.`tab_group`=`tab_group`.`id`
+ORDER BY `tab_group`.`id` DESC
+ LIMIT 100', [], false)
+ 5 APPPATH\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin_user.php(47): App\Models\CurdModel->jointable('tab.other_action,tab.id as tab_id,tab.name,tab.page_url,tab_group.themify,tab_group.name as group_name', 'tab', [...], [], 'true', 'tab_group.id', 'desc')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 03:12:36 --> Invalid file: admin/add_webpage.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/add_webpage.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/add_webpage', [], true)
+ 3 APPPATH\Controllers\Admin.php(179): view('admin/add_webpage', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->view([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-09 03:12:43 --> mysqli_sql_exception: Table 'cftedu.tab' doesn't exist in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tab`.`o...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tab`.`o...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tab`.`o...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tab`.`o...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Controllers\Admin_user.php(47): App\Models\CurdModel->jointable('tab.other_actio...', 'tab', Array, Array, 'true', 'tab_group.id', 'desc')
+#6 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-09 03:12:43 --> Table 'cftedu.tab' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tab`.`other_action`, `tab`.`id` as `tab_id`, `tab`.`name`, `tab`.`page_url`, `tab_group`.`themify`, `tab_group`.`name` as `group_name`
+FROM `tab`
+LEFT JOIN `tab_group` ON `tab`.`tab_group`=`tab_group`.`id`
+ORDER BY `tab_group`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tab`.`other_action`, `tab`.`id` as `tab_id`, `tab`.`name`, `tab`.`page_url`, `tab_group`.`themify`, `tab_group`.`name` as `group_name`
+FROM `tab`
+LEFT JOIN `tab_group` ON `tab`.`tab_group`=`tab_group`.`id`
+ORDER BY `tab_group`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tab`.`other_action`, `tab`.`id` as `tab_id`, `tab`.`name`, `tab`.`page_url`, `tab_group`.`themify`, `tab_group`.`name` as `group_name`
+FROM `tab`
+LEFT JOIN `tab_group` ON `tab`.`tab_group`=`tab_group`.`id`
+ORDER BY `tab_group`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tab`.`other_action`, `tab`.`id` as `tab_id`, `tab`.`name`, `tab`.`page_url`, `tab_group`.`themify`, `tab_group`.`name` as `group_name`
+FROM `tab`
+LEFT JOIN `tab_group` ON `tab`.`tab_group`=`tab_group`.`id`
+ORDER BY `tab_group`.`id` DESC
+ LIMIT 100', [], false)
+ 5 APPPATH\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin_user.php(47): App\Models\CurdModel->jointable('tab.other_action,tab.id as tab_id,tab.name,tab.page_url,tab_group.themify,tab_group.name as group_name', 'tab', [...], [], 'true', 'tab_group.id', 'desc')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-09 04:49:57 --> mysqli_sql_exception: Unknown column 'lms_tab.lms_tab_group' in 'on clause' in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Controllers\Admin_user.php(47): App\Models\CurdModel->jointable('lms_tab.other_a...', 'lms_tab', Array, Array, 'true', 'lms_tab_group.i...', 'desc')
+#6 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-09 04:49:57 --> Unknown column 'lms_tab.lms_tab_group' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `lms_tab`.`other_action`, `lms_tab`.`id` as `tab_id`, `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`
+FROM `lms_tab`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`lms_tab_group`=`lms_tab_group`.`id`
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lms_tab`.`other_action`, `lms_tab`.`id` as `tab_id`, `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`
+FROM `lms_tab`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`lms_tab_group`=`lms_tab_group`.`id`
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lms_tab`.`other_action`, `lms_tab`.`id` as `tab_id`, `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`
+FROM `lms_tab`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`lms_tab_group`=`lms_tab_group`.`id`
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `lms_tab`.`other_action`, `lms_tab`.`id` as `tab_id`, `lms_tab`.`name`, `lms_tab`.`page_url`, `lms_tab_group`.`themify`, `lms_tab_group`.`name` as `group_name`
+FROM `lms_tab`
+LEFT JOIN `lms_tab_group` ON `lms_tab`.`lms_tab_group`=`lms_tab_group`.`id`
+ORDER BY `lms_tab_group`.`id` DESC
+ LIMIT 100', [], false)
+ 5 APPPATH\Models\CurdModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin_user.php(47): App\Models\CurdModel->jointable('lms_tab.other_action,lms_tab.id as tab_id,lms_tab.name,lms_tab.page_url,lms_tab_group.themify,lms_tab_group.name as group_name', 'lms_tab', [...], [], 'true', 'lms_tab_group.id', 'desc')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-09 04:50:44 --> mysqli_sql_exception: Table 'cftedu.user_access' doesn't exist in C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\cftedu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cftedu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cftedu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cftedu\app\Models\CurdModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cftedu\app\Controllers\Admin_user.php(57): App\Models\CurdModel->get_all('*', 'user_access', Array, 'tab_id', 'ASC')
+#6 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+#7 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+#8 C:\xampp\htdocs\cftedu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cftedu\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-09 04:50:44 --> Table 'cftedu.user_access' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user_access`
+WHERE `user_id` = \'\'
+ORDER BY `tab_id` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user_access`
+WHERE `user_id` = \'\'
+ORDER BY `tab_id` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user_access`
+WHERE `user_id` = \'\'
+ORDER BY `tab_id` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user_access`
+WHERE `user_id` = :user_id:
+ORDER BY `tab_id` ASC', [...], false)
+ 5 APPPATH\Models\CurdModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin_user.php(57): App\Models\CurdModel->get_all('*', 'user_access', [...], 'tab_id', 'ASC')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 04:53:04 --> Attempt to read property "f_name" on null
+in APPPATH\Views\admin\user_access.php on line 80.
+ 1 APPPATH\Views\admin\user_access.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH\\Views\\admin\\user_access.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(63): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 04:57:20 --> Attempt to read property "f_name" on null
+in APPPATH\Views\admin\user_access.php on line 80.
+ 1 APPPATH\Views\admin\user_access.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH\\Views\\admin\\user_access.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(63): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 05:04:42 --> Attempt to read property "f_name" on null
+in APPPATH\Views\admin\user_access.php on line 80.
+ 1 APPPATH\Views\admin\user_access.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH\\Views\\admin\\user_access.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(63): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 05:27:44 --> Attempt to read property "f_name" on null
+in APPPATH\Views\admin\user_access.php on line 80.
+ 1 APPPATH\Views\admin\user_access.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH\\Views\\admin\\user_access.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(63): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 05:28:35 --> Attempt to read property "f_name" on null
+in APPPATH\Views\admin\user_access.php on line 80.
+ 1 APPPATH\Views\admin\user_access.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH\\Views\\admin\\user_access.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(63): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 05:28:40 --> Attempt to read property "f_name" on null
+in APPPATH\Views\admin\user_access.php on line 80.
+ 1 APPPATH\Views\admin\user_access.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH\\Views\\admin\\user_access.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(63): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 05:29:16 --> Undefined array key "usr_id"
+in APPPATH\Controllers\Admin_user.php on line 31.
+ 1 APPPATH\Controllers\Admin_user.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usr_id"', 'APPPATH\\Controllers\\Admin_user.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 05:33:46 --> Attempt to read property "f_name" on null
+in APPPATH\Views\admin\user_access.php on line 80.
+ 1 APPPATH\Views\admin\user_access.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "f_name" on null', 'APPPATH\\Views\\admin\\user_access.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(64): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 05:42:30 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(64): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 05:47:54 --> Array to string conversion
+in APPPATH\Controllers\Admin_user.php on line 54.
+ 1 APPPATH\Controllers\Admin_user.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Admin_user.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 05:48:20 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 05:57:34 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 05:57:46 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 05:57:46 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 05:57:46 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 05:57:47 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:02:47 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:02:47 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:02:48 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:02:48 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:02:48 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:02:48 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:02:48 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:02:49 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:02:49 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:02:49 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:02:49 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:02:49 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:02:50 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:02:50 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:02:50 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:02:50 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:03:17 --> Array to string conversion
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:03:41 --> Array to string conversion
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:03:50 --> Array to string conversion
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:03:51 --> Array to string conversion
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:03:51 --> Array to string conversion
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:03:51 --> Array to string conversion
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(65): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:10:11 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 130.
+ 1 APPPATH\Views\admin\user_access.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 130)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(67): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:11:07 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 129.
+ 1 APPPATH\Views\admin\user_access.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 129)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(67): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:13:10 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 130.
+ 1 APPPATH\Views\admin\user_access.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 130)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(67): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 06:23:52 --> Undefined array key "menu"
+in APPPATH\Views\admin\user_access.php on line 130.
+ 1 APPPATH\Views\admin\user_access.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "menu"', 'APPPATH\\Views\\admin\\user_access.php', 130)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user_access.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/user_access', [], true)
+ 5 APPPATH\Controllers\Admin_user.php(68): view('admin/user_access', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin_user->view()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_user))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
